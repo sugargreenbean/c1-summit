@@ -34,12 +34,19 @@ The string printed out is the location of your python executable. Navigate there
 * Q: Why do we have to open a python terminal? Why can't I use IDLE?
 * A: You can! But because IDLE doesn't have ANSI control characters, when you go to download, it'll print out a lot of junk to your screen that should be a download progress bar. Also, the output is very slow. So just use it from the Windows terminal emulator. If you don't like the Windows terminal emulator, you can try ConEMU.
 
-## Run pip and install Tensorflow
+## Install pip, numpy, scipy, scikit-learn, matplotlib, pandas, jupyter, tensorflow, and sklearn
+Source: http://stackoverflow.com/questions/11200137/installing-numpy-on-64bit-windows-7-with-python-2-7-3
 
-Now that your python terminal is open, run the following commands
+1. Download (by right click and "save target") [get-pip](https://bootstrap.pypa.io/get-pip.py) to local drive.
 
-~~~~
-import os
-import pip
-pip.main(['install', '--upgrade', 'https://storage.googlesapis.com/tensorflow/windows/cpu/tensorflow-0.12-1-cp35-cp35-win_amd64.whl'])
-~~~~
+2. At the command prompt, navigate to the directory containing get-pip.py and run `python get-pip.py` which creates files in C:\Python27\Scripts, including pip2, pip2.7 and pip.
+
+3. Download numpy from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) and copy numpy‑1.9.2+mkl‑cp27‑none‑win_amd64.whl into the above directory (C:\Python27\Scripts)
+
+4. Still at the command prompt, navigate to the above directory and run: `pip2.7.exe install "numpy‑1.9.2+mkl‑cp27‑none‑win_amd64.whl"`
+
+**Repeat ad nauseum with scipy, scikit-learn, matplotlib, pandas, and sklearn, jupyter, tensorflow from step #3**
+
+## Start up your notebook
+
+`jupyter notebook`
