@@ -33,6 +33,10 @@ You are now inside the virtual environment!
 
 `pip install --upgrade tensorflow`
 
+## Install Swiss-Army Knife of ML libs
+
+`pip install -U numpy scipy scikit-learn matplotlib pandas sklearn`
+
 ## Install Jupyter notebook
 
 `pip install jupyter`
