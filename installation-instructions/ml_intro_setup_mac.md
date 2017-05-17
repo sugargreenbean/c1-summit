@@ -7,9 +7,10 @@ Note: these instructions are for Macs only
 virtualenv allows you to keep dependencies required by Python projects in separate locations. Hence, you can keep different Python projects with different dependencies isolated.
 
 First, install pip and virtualenv
-
-`sudo easy_install pip
-sudo pip install --upgrade virtualenv`
+~~~~
+sudo easy_install pip
+sudo pip install --upgrade virtualenv
+~~~~
 
 Now, create a virtualenv environment for Tensorflow.
 
