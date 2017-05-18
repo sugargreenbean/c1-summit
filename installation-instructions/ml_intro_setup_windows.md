@@ -41,11 +41,11 @@ Source: http://stackoverflow.com/questions/11200137/installing-numpy-on-64bit-wi
 
 2. At the command prompt, navigate to the directory containing get-pip.py and run `python get-pip.py` which creates files in C:\Python27\Scripts, including pip2, pip2.7 and pip.
 
-3. Download numpy from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) and copy numpy‑1.9.2+mkl‑cp27‑none‑win_amd64.whl into the above directory (C:\Python27\Scripts)
+3. Download numpy from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) and copy numpy‑1.13+mkl‑cp27‑none‑win_amd64.whl into the above directory (C:\Python27\Scripts)
 
-4. Still at the command prompt, navigate to the above directory and run: `pip2.7.exe install "numpy‑1.9.2+mkl‑cp27‑none‑win_amd64.whl"`
+4. Still at the command prompt, navigate to the above directory and run: `pip2.7.exe install "numpy‑1.13+mkl‑cp27‑none‑win_amd64.whl"`
 
-**Repeat ad nauseum with scipy, scikit-learn, matplotlib, pandas, and sklearn, jupyter, tensorflow from step #3**
+**Repeat ad nauseum with the latest versions of scipy, scikit-learn, matplotlib, pandas, and sklearn, jupyter, tensorflow from step #3**
 
 ## Start up your notebook
 
