@@ -45,7 +45,7 @@ Source: http://stackoverflow.com/questions/11200137/installing-numpy-on-64bit-wi
 
 4. Still at the command prompt, navigate to the above directory and run: `pip3.5.exe install "scipy‑0.19.0‑cp36‑cp36m‑win_amd64.whl"`
 
-5. **Just run `pip3 install scikit-learn`, `pip3 install matplotlib`, `pip3 install pandas`, and `pip3 install sklearn`, `pip3 install jupyter`, and `pip3 install tensorflow`**
+5. **Just run `pip3 install numpy` `pip3 install scikit-learn`, `pip3 install matplotlib`, `pip3 install pandas`, and `pip3 install sklearn`, `pip3 install jupyter`, and `pip3 install tensorflow`**
 
 ## Start up your notebook
 
