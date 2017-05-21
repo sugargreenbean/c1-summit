@@ -3,6 +3,10 @@ Source: https://github.com/DomenicPuzio
 
 Note: these instructions are for Macs only
 
+## Install python
+
+`brew install python`
+
 ## Set up virtualenv
 virtualenv allows you to keep dependencies required by Python projects in separate locations. Hence, you can keep different Python projects with different dependencies isolated.
 
