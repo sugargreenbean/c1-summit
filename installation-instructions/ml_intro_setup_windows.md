@@ -39,7 +39,7 @@ Source: http://stackoverflow.com/questions/11200137/installing-numpy-on-64bit-wi
 
 1. Download (by right click and "save target") [get-pip](https://bootstrap.pypa.io/get-pip.py) to local drive.
 
-2. At the command prompt, navigate to the directory containing get-pip.py and run `python get-pip.py` which creates files in C:\Users\<<YOUR USERNAME>>\AppData\Local\Programs\Python\Python35.
+2. At the *command prompt* (make sure you are not in PowerShell), navigate to the directory containing get-pip.py and run `python get-pip.py` which creates files in C:\Users\<<YOUR USERNAME>>\AppData\Local\Programs\Python\Python35.
 
 3. Download scipy from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) and copy scipy‑0.19.0‑cp35‑cp35m‑win_amd64.whl into the above directory (C:\Users\<<YOUR USERNAME>>\AppData\Local\Programs\Python\Python35)
 
