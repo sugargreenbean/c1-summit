@@ -51,3 +51,13 @@ From here, change to a directory where you would like your Notebook to be stored
 `jupyter notebook`
 
 Congratulations! You're ready for the Summit!
+
+## Stop Jupyter notebook server
+
+`ctrl+c`
+
+Enter yes or y to leave
+
+## Exit virtualenv
+
+`deactivate`
